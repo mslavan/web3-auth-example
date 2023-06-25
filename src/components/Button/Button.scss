@@ -1,0 +1,41 @@
+.btn {
+  border-radius: 6px;
+  border: 0px;
+  font-weight: 600;
+  font-size: $text-bg;
+  line-height: 31px;
+  min-width: 386px;
+  height: 86px;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  background-color: $green-light;
+  color: $black;
+}
+
+.btn.btn-secondary {
+  background-color: $pink;
+  color: $white;
+}
+
+.btn.btn-primary:hover {
+  background-color: rgba($green-light, 0.9) !important;
+}
+
+.btn.btn-secondary:hover {
+  background-color: rgba($pink, 0.9) !important;
+}
+
+@media (max-width: 767px) {
+  .btn {
+    width: calc(100% - 20px);
+    min-width: unset;
+  }
+}

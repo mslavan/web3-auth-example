@@ -1,0 +1,12 @@
+footer {
+  height: 153px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: $text-sm;
+    color: $green-light;
+    font-family: $font-family-secondary;
+  }
+}
